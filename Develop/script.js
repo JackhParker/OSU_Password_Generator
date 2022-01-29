@@ -87,7 +87,7 @@ if (userNumbers && userLowerCase && userUpperCase && userSpecial) {
 
   var password = [];
   for (i = 0; i < userImput; i++) {
-    var genArryNew = genArry[Math.floor(Math.random(min = 0, max = genArry.length))];
+    var genArryNew = genArry[Math.floor(Math.random() * genArry.length)];
     password.push(genArryNew);
     console.log("its running");
   }
