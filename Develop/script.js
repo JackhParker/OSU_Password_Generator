@@ -12,7 +12,6 @@ var numbers = [`1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `0`];
 var upperCase = [`A`, `B`, `C`, `D`, `E`, `F`, `G`, `H`, `I`, `J`, `K`, `L`, `M`, `N`, `O`, `P`, `Q`, `R`, `S`, `T`, `U`, `V`, `W`, `X`, `Y`, `Z`];
 var special = [`!`, `@`, `#`, `$`, `%`, `^`, `&`, `*`, `(`, `)`, `_`, `+`, `-`, `=`, `~`];
 
-
 function generatePassword() {
 var userImput =  parseInt(prompt("Please eneter the desiered length of password between 8 and 128 characters."));
 
@@ -42,7 +41,7 @@ console.log(userLowerCase);
 userUpperCase = window.confirm("Would you like to have Upper case characters?");
 console.log(userUpperCase);
 
-for ( i = 0, i = userImput,  )
+
 
 
 
