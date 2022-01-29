@@ -90,7 +90,6 @@ if (userNumbers && userLowerCase && userUpperCase && userSpecial) {
     var genArryNew = genArry[Math.floor(Math.random() * genArry.length)];
     password.push(genArryNew);
     console.log("its running");
-    
   }
   var password1 = password.join("")
   console.log(password);
