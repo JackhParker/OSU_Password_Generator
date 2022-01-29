@@ -1,18 +1,22 @@
 # OSU_Password_Generator
 Password generator for homework and working on js
 
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
+
+## Installation
+
+Use the package manager https://github.com/JackhParker/OSU_Password_Generator.git to install OSU_Password_Generator
+
+git@github.com:JackhParker/OSU_Password_Generator.git
+
+## Usage
+
+This was used to check the our abilty to use and function in javascript, and to make a random password generator
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

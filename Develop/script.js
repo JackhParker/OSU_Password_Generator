@@ -12,7 +12,7 @@ var numbers = [`1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `0`];
 var upperCase = [`A`, `B`, `C`, `D`, `E`, `F`, `G`, `H`, `I`, `J`, `K`, `L`, `M`, `N`, `O`, `P`, `Q`, `R`, `S`, `T`, `U`, `V`, `W`, `X`, `Y`, `Z`];
 var special = [`!`, `@`, `#`, `$`, `%`, `^`, `&`, `*`, `(`, `)`, `_`, `+`, `-`, `=`, `~`];
 
-var genArry = undefined;
+var genArry = [];
 
 
 function generatePassword() {
@@ -85,26 +85,14 @@ if (userNumbers && userLowerCase && userUpperCase && userSpecial) {
   }
   console.log(genArry);
 
-
-
-  // for (i = 0; i < placeholder; 1++) {
-  //   //math random for the pulling randomly for the newest array for the pass ward
-  // }
+  var password = [];
+  for (i =0; i < userImput.length; i++) {
+    var genArryNew = genArry[Math.floor(Math.random() * genArry.length)]
+    password.push(genArryNew)
+  }
+  console.log(password);
   return;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
